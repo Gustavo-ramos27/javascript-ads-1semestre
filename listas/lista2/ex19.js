@@ -1,7 +1,4 @@
-/* Exercício 19:
-Elabore uma aplicação para calcular a área e o perímetro de um retângulo.
-Área = b * h
-Perímetro = 2*(b + h)
-
-TODO: Base e altura, calcule, exiba. */
+let x = parseFloat(prompt("digite o valor da base"))
+let y = parseFloat(prompt('digite o valor da altura'))
+document.getElementById('area').innerHTML = `a area do seu retangulo é ${x * y}`
 

@@ -1,5 +1,4 @@
-/* Exercício 10:
-Escreva um programa que exiba o seu nome, sobrenome e idade.
-
-TODO: Variáveis para cada, exiba formatado. */
-
+let nome = prompt('digite seu nome')
+let nomedomeio = prompt('digite seu nome do meio')
+let sobrenome = prompt('digite seu sobrenome')
+document.getElementById('resultado').innerHTML = `seu nome completo é ${nome} ${nomedomeio} ${sobrenome}`

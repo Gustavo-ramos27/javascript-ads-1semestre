@@ -1,7 +1,3 @@
-/* Exercício 20: Festa de Aniversário
-Digite a quantidade de amigos que você vai convidar. Cada amigo trará 2 presentes.
--Exiba a quantidade de convidados.
--Calcule e exiba a quantidade total de presentes que você vai receber.
-
-TODO: Num amigos, total = amigos*2, exiba. */
+let convidados = parseFloat(prompt('quantos amigos vao a festa'))
+document.getElementById("festa").innerHTML = `os essa é a quantidade de amigos que vao a festa ${convidados} <br> e esses sao os presentes que voce vai ganhar ${convidados * 2} <br> feliz anivesario`
 

@@ -1,9 +1,5 @@
-/* Exercício 23: Economizando Mesada
-Escreva um algoritmo que calcule quanto de dinheiro sobrará após uma pessoa economizar parte da mesada.
-O usuário deverá informar:
-- O valor total da mesada recebida;
-- O valor que deseja economizar.
-O programa deve calcular e exibir quanto de dinheiro restará.
-
-TODO: Mesada, economizar, sobra = mesada - economizar, exiba. */
+let mesada = parseFloat(prompt("Digite o valor total da mesada recebida:"));
+let economizar = parseFloat(prompt("Digite o valor que deseja economizar:"));
+let sobra = mesada - economizar;
+document.getElementById('resultado').innerHTML = `O valor que sobra da mesada é: ${sobra}`;
 

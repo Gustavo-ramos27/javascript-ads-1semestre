@@ -1,5 +1,2 @@
-/* Exercício 7:
-Crie um programa que exiba a sequência de números de 1 a 10.
-
-TODO: Exiba 1,2,3,...,10. */
+document.getElementById('sequencia').innerHTML = '1,2,3,4,5,6,7,8,9,10'
 

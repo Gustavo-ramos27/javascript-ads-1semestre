@@ -1,6 +1,12 @@
-/* Exercício 28: Conta de Restaurante
-Peça ao usuário para inserir o valor total da conta do restaurante e o percentual de gorjeta.
-Calcule e exiba o valor total a ser pago.
+// Solicitar conta
+let conta = parseFloat(prompt("Digite o valor total da conta:"));
 
-TODO: Conta, gorjeta%, total = conta * (1 + gorjeta/100), exiba. */
+// Solicitar gorjeta %
+let gorjetaPercent = parseFloat(prompt("Digite o percentual de gorjeta (%):"));
+
+// Calcular total
+let total = conta * (1 + gorjetaPercent / 100);
+
+// Exibir
+document.getElementById("resultado").innerHTML = "Valor total a ser pago: R$ " + total.toFixed(2);
 

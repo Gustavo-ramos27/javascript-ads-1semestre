@@ -1,5 +1,5 @@
-/* Exercício 32: (Adaptado de ex32.htm/js)
-Gere um número aleatório ou implemente lógica relacionada ao exercício local (ex32.js mostra random/sqrt?).
+let seed = Date.now();
+let randomNum = (seed % 100) + 1;  // Número entre 1 e 100
 
-TODO: Descreva o problema da lógica original, implemente sem código pronto. */
+document.getElementById("resultado").innerHTML = "Número aleatório gerado: " + randomNum;
 

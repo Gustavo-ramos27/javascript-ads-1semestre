@@ -1,5 +1,4 @@
-/* Exercício 14:
-Crie uma aplicação que receba duas variáveis do tipo inteiro, exiba os valores digitados e posteriormente exiba a primeira variável acrescida de uma unidade e a segunda variável decrescida de uma unidade.
-
-TODO: Variáveis a=..., b=..., exiba originais, a+1, b-1. Use prompt se input. */
+let n1 = parseInt(prompt('numero 1'));
+let n2 = parseInt(prompt('numero 2'));
+document.getElementById('two').innerHTML = `${n1} ${n2} <br> ${n1 + 1}  -  ${n2 - 1} `
 

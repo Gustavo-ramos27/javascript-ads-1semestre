@@ -1,10 +1,14 @@
-/* Exercício 26: Dividindo Dinheiro
-Escreva um algoritmo que divida uma quantia de dinheiro entre três amigos:
-O usuário informa valor total.
-Primeiro amigo recebe X.
-Segundo recebe o dobro do primeiro.
-Terceiro recebe o dobro do segundo.
-Exiba quanto cada recebe.
+// Solicitar o valor total
+let total = parseFloat(prompt("Digite o valor total a ser dividido:"));
 
-TODO: Total, x = ? (total / (1+2+4)=total/7), amigo1=x, amigo2=2x, amigo3=4x. */
+// Calcular x
+let x = total / 7;
+
+// Calcular para cada amigo
+let amigo1 = x;
+let amigo2 = 2 * x;
+let amigo3 = 4 * x;
+
+// Exibir
+document.getElementById("resultado").innerHTML = "Primeiro amigo: R$ " + amigo1.toFixed(2) + "<br>Segundo amigo: R$ " + amigo2.toFixed(2) + "<br>Terceiro amigo: R$ " + amigo3.toFixed(2);
 

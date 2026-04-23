@@ -1,5 +1,2 @@
-/* Exercício 4:
-Crie um programa que exiba o dobro de um número.
-
-TODO: Defina número, multiplique por 2, exiba. */
-
+let n = prompt('digite um numero')
+document.getElementById(resultado).innerHTML = n*2

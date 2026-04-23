@@ -1,9 +1,5 @@
-/* Exercício 24: Economizando para o Lanche
-Escreva um algoritmo que calcule quanto de dinheiro ainda falta economizar para comprar um lanche.
-O usuário deverá informar:
-- O valor total do lanche;
-- O valor que já foi economizado.
-O programa deve calcular e exibir quanto ainda falta economizar.
-
-TODO: Valor lanche, economizado, falta = lanche - economizado, exiba. */
+let lanche = parseFloat(prompt("Digite o valor total do lanche:"));
+let economizado = parseFloat(prompt("Digite o valor que já foi economizado:"));
+let falta = lanche - economizado;
+document.getElementById('resultado').innerHTML = `O valor que ainda falta economizar é: R$ ${falta.toFixed(2)}`;
 

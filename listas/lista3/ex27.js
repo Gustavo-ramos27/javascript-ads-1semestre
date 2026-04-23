@@ -1,11 +1,16 @@
-/* Exercício 27: Plantando Flores
-Você vai plantar flores durante 5 dias. Quantidade:
-Dia1: X (input usuário)
-Dia2: 2*X
-Dia3: 3*X
-Dia4: 4*X
-Dia5: 5*X
-Calcule quantidade por dia e total ao final dos 5 dias.
+// Solicitar X
+let x = parseInt(prompt("Digite a quantidade de flores plantadas no primeiro dia (X):"));
 
-TODO: X, calcule dia1=X, dia2=2*X etc., total = 15*X, exiba todos. */
+// Calcular cada dia
+let dia1 = x;
+let dia2 = 2 * x;
+let dia3 = 3 * x;
+let dia4 = 4 * x;
+let dia5 = 5 * x;
+
+// Total
+let total = dia1 + dia2 + dia3 + dia4 + dia5; // or 15 * x
+
+// Exibir
+document.getElementById("resultado").innerHTML = "Dia 1: " + dia1 + " flores<br>Dia 2: " + dia2 + " flores<br>Dia 3: " + dia3 + " flores<br>Dia 4: " + dia4 + " flores<br>Dia 5: " + dia5 + " flores<br>Total: " + total + " flores";
 
