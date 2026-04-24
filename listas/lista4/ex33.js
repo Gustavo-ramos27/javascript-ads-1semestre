@@ -1,5 +1,2 @@
-/* Exercício 33: (Adaptado de ex33.htm/js local)
-Implemente a lógica do exercício original dos arquivos locais.
-
-TODO: Descreva o problema (continuação de aritmética/random?), pratique lógica sem código. */
-
+let n = parseFloat(prompt('digite o seu numero'))
+document.getElementById('resultado').innerHTML = `o valor do numero é ${n} <br> e a sua raiz quadrada é ${Math.sqrt(n)} <br> e a sua raiz cubica é ${Math.cbrt(n)}    `

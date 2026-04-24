@@ -1,9 +1,3 @@
-// Solicitar preço
-let preco = parseFloat(prompt("Digite o preço do livro:"));
-
-// Calcular total com desconto
-let total = preco * 0.9;
-
-// Exibir
-document.getElementById("resultado").innerHTML = "Valor total com desconto: R$ " + total.toFixed(2);
-
+let valor = parseFloat(prompt("qual é o valor do seu livro"))
+let desconto = valor * 0.1
+document.getElementById('desconto').innerHTML= `o valor do seu livro é ${valor} e o total a pagar é ${valor - desconto}`

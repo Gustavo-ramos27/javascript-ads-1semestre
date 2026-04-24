@@ -1,5 +1,3 @@
-let lanche = parseFloat(prompt("Digite o valor total do lanche:"));
-let economizado = parseFloat(prompt("Digite o valor que já foi economizado:"));
-let falta = lanche - economizado;
-document.getElementById('resultado').innerHTML = `O valor que ainda falta economizar é: R$ ${falta.toFixed(2)}`;
-
+let mesada = parseFloat(prompt('mesada total'))
+let economia = parseFloat(prompt("economia"))
+document.getElementById('m').innerHTML = `o valor que sobra para o gasto é ${mesada - economia}`

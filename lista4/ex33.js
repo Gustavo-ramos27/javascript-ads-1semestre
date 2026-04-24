@@ -1,2 +1,0 @@
-let n = parseFloat(prompt('digite o seu numero'))
-document.getElementById('resultado').innerHTML = `o valor do numero é ${n} <br> e a sua raiz quadrada é ${Math.sqrt(n)} <br> e a sua raiz cubica é ${Math.cbrt(n)}    `

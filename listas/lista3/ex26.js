@@ -1,14 +1,6 @@
-// Solicitar o valor total
-let total = parseFloat(prompt("Digite o valor total a ser dividido:"));
-
-// Calcular x
-let x = total / 7;
-
-// Calcular para cada amigo
-let amigo1 = x;
-let amigo2 = 2 * x;
-let amigo3 = 4 * x;
-
-// Exibir
-document.getElementById("resultado").innerHTML = "Primeiro amigo: R$ " + amigo1.toFixed(2) + "<br>Segundo amigo: R$ " + amigo2.toFixed(2) + "<br>Terceiro amigo: R$ " + amigo3.toFixed(2);
-
+let dinheiro = parseFloat(prompt('quanto dinheiro é para ser dividido'))
+let amigo1 = parseFloat(prompt('quanto dinheiro ele vai receber'))
+let amigo2 = amigo1*2
+let amigo3 = amigo2*2
+let oqsobrou1 = dinheiro/ (amigo1 + amigo2 + amigo3)
+document.getElementById('beta').innerHTML = `o seu dinheiro era ${dinheiro} e agora apos dividir o dinheiro é ${oqsobrou1}`

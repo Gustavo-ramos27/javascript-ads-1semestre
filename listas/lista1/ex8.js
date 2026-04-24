@@ -1,4 +1,4 @@
-let ola = "hello world";
-document.getElementById("palavras").innerHTML =
-  "feliz ano novo feliz ano novo feliz ano novo ";
+
+document.getElementById("resultado").innerHTML = `feliz ano novo feliz ano novo feliz ano novo`
+
 

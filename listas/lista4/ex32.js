@@ -1,5 +1,2 @@
-let seed = Date.now();
-let randomNum = (seed % 100) + 1;  // Número entre 1 e 100
-
-document.getElementById("resultado").innerHTML = "Número aleatório gerado: " + randomNum;
-
+let n = parseFloat(prompt('digite o seu numero'))
+document.getElementById('resultado').innerHTML = `o valor do numero é ${n} e o seu quadrado é ${Math.pow(n, 2)} e ao cubo é ${Math.pow(n, 3)}   e elevado a quarta é ${Math.pow(n, 4)}  e elevado a quinta é ${Math.pow(n, 5)}`
