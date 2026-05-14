@@ -1,7 +1,6 @@
-# TODO: 500 Exercícios Lógica de Programação
+- [x] Step 1: Criar pasta listas/lista8 (se não existir)
+- [x] Step 2: Criar ex84 a ex103 (20 pares .html/.js) em listas/lista8
+- [x] Step 3: Validar que todos os 40 arquivos foram criados (listar diretório)
+- [ ] Step 4: (opcional) Rodar um quick check abrindo/inspecionando ex84.html no navegador
 
-✅ Updated generate_logica.ps1 (JS empty, HTML template, ex1-ex500)
-✅ Emptied 500 exercicios.js
-⏳ Execute generator
-- Run: powershell -ExecutionPolicy Bypass -File generate_logica.ps1
-✅ Verify and complete
+
